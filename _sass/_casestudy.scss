@@ -1,0 +1,131 @@
+// Case study page
+.case-study {
+  a.navbar-brand {
+    position: fixed;
+    top: 20px;
+    transform: translate(-48px, 0px);
+  }
+  .sticky .color-block {
+    height: 68vh;
+  }
+
+  .color-block.case-study {
+    background-image: url('../images/projects/banners/hero-sticky-template-mobile.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .content {
+    padding: 0px 28px 60px 28px;
+  }
+
+  // Logos
+  .cs-logo {
+    margin: 20px 0px 10px 0px;
+  }
+  .cs-logo.cookpad {
+    background: url('../images/logos/cookpad-logo.svg')center center no-repeat;
+    width: 160px;
+    height: 50px;
+    background-size: 100%;
+  }
+  .cs-logo.trainline {
+    background: url('../images/logos/tl-logo.svg')center center no-repeat;
+    width: 160px;
+    height: 38px;
+    background-size: 100%;
+  }
+  .cs-logo.sainsburys {
+    background: url('../images/logos/sainsburys-logo.svg')center center no-repeat;
+    width: 160px;
+    height: 36px;
+    background-size: 100%;
+  }
+  .cs-logo.justeat {
+    background: url('../images/logos/justeat-logo.svg')center center no-repeat;
+    width: 160px;
+    height: 50px;
+    background-size: 100%;
+  }
+  .cs-logo.recliningworm {
+    background: url('../images/logos/recliningworm-logo.svg')center center no-repeat;
+    width: 160px;
+    height: 66px;
+    background-size: 100%;
+  }
+
+  // Header images
+  .color-block.case-study.sainsburys {
+    background-image: url('../images/projects/banners/hero-sticky-template-desktop.png');
+  }
+  .color-block.case-study.trainline {
+    background-image: url('../images/projects/banners/hero-sticky-template-desktop.png');
+  }
+  .color-block.case-study.cookpad {
+    background-image: url('../images/projects/banners/hero-sticky-template-desktop.png');
+  }
+
+
+  footer a {
+    color: #ffffff;
+  }
+
+  .content h2 {
+    max-width: 800px;
+  }
+  // Star rating
+  .rating-5 {
+    background: url('/assets/images/projects/rating.svg') 24px center no-repeat;
+    display: inline-block;
+    width: 110px;
+    height: 20px;
+    text-align: left;
+  }
+
+  // YouTube videos
+  .responsive-youtube {
+    overflow:hidden; padding-bottom:56.25%; position:relative; height:0;
+  }
+  .responsive-youtube iframe {
+    left:0; top:0; height:100%; width:100%; position:absolute;
+  }
+}
+
+.hero {
+  padding: 0px;
+}
+
+.disciplines {
+  text-align: center;
+}
+.disciplines li {
+  padding: 4px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.hero h2 {
+  padding-top: 0px;
+}
+
+h3 {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.6px;
+}
+h4 {
+  color: black;
+  font-family: inherit;
+  text-transform: inherit;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.6px;
+}
+h5 {
+  color: black;
+  font-family: inherit;
+  text-transform: inherit;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.6px;
+}

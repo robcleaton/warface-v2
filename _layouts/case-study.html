@@ -1,0 +1,46 @@
+
+{% include header.html %}
+
+<style>
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 0px !important;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  position: fixed;
+  z-index: 200;
+  left: 50%;
+  top: 24px;
+  transform: translate(-50%, 0);
+}
+h1 {
+  font-size: 2rem;
+  line-height: inherit;
+}
+
+a:hover {
+  color: #FDB813 !important;
+}
+</style>
+
+<div class="case-study">
+<a class="navbar-brand" href="/"></a>
+
+<div class="sticky">
+  <div class="color-block case-study">
+  </div>
+</div>
+
+<div class="sheet">
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+  {% include footer.html %}
+</div>

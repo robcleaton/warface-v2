@@ -1,0 +1,250 @@
+div.scrollmenu {
+  padding: 20px;
+  margin: 0px;
+}
+
+div.scrollmenu, .card-stack {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a, div.scrollmenu .card {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: url('../images/icons/happy.png'), auto;
+}
+
+.card-img, .card-img-top {
+  border-top-left-radius: calc(.75rem - 1px);
+  border-top-right-radius: calc(.75rem - 1px);
+}
+
+div.scrollmenu .card:hover {
+  background: $pink-1;
+}
+
+.scrollmenu::-webkit-scrollbar, .card-stack::-webkit-scrollbar {
+  display: none;
+}
+
+.trainline-logo {
+  background: url('../images/logos/tl-black-logo.svg') left center no-repeat;
+  background-size: 28%;
+  width: 100%;
+  height: 40px;
+  display: block;
+}
+.sciencemuseum-logo {
+  background: url('../images/logos/sciencemuseum-black-logo.svg') left center no-repeat;
+  background-size: 22%;
+  width: 100%;
+  height: 40px;
+  display: block;
+}
+.cookpad-logo {
+  background: url('../images/logos/cookpad-black-logo.svg') left center no-repeat;
+  background-size: 28%;
+  width: 100%;
+  height: 40px;
+  display: block;
+}
+.justeat-logo {
+  background: url('../images/logos/justeat-black-logo.svg') left center no-repeat;
+  background-size: 28%;
+  width: 100%;
+  height: 40px;
+  display: block;
+}
+.recliningworm-logo {
+  background: url('../images/logos/recliningworm-logo.svg') left center no-repeat;
+  background-size: 28%;
+  width: 100%;
+  height: 40px;
+  display: block;
+}
+.fifa-logo {
+  background: url('../images/logos/fifa-black-logo.svg') left center no-repeat;
+  background-size: 20%;
+  width: 100%;
+  height: 40px;
+  display: block;
+}
+.lloyds-logo {
+  background: url('../images/logos/lloyds-black-logo.svg') left center no-repeat;
+  background-size: 20%;
+  width: 100%;
+  height: 40px;
+  display: block;
+}
+.tesco-logo {
+  background: url('../images/logos/tesco-black-logo.svg') left center no-repeat;
+  background-size: 20%;
+  width: 100%;
+  height: 40px;
+  display: block;
+}
+
+div.scrollmenu .card {
+  background: white;
+  color: $pink-1;
+  border-radius: 12px;
+  width: 300px;
+  margin-right: 12px;
+  vertical-align: top;
+  display: inline-flex;
+
+  img.card-img-top {
+    background: pink;
+    object-fit: cover;
+    height: 260px;
+  }
+  h5 {
+    text-align: left;
+  }
+  h6 {
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+    word-spacing: -0.1rem;
+  }
+  a, p {
+    color: $dark-clay;
+    white-space: normal;
+    text-align: left;
+    padding: 0px;
+  }
+
+}
+div.scrollmenu .card.see-all {
+  vertical-align: text-top;
+  text-align: center;
+  width: 100px !important;
+  height: 100px;
+  border-radius: 110px;
+  margin-left: 40px;
+  margin-top: 150px;
+
+  a {
+    text-align: center;
+    font-size: 0.5rem;
+  }
+  svg {
+    height: 4rem;
+  }
+}
+
+div.scrollmenu.seo {
+  .card {
+    width: 360px;
+  }
+}
+
+div.scrollmenu .card.cookpad:hover {
+  background: #ffbd76;
+}
+div.scrollmenu .card.trainline:hover {
+  background: #62ffb8;
+}
+div.scrollmenu .card.science-museum:hover {
+  background: #a29eb7;
+}
+div.scrollmenu .card.oatbook:hover {
+  background: #f9e3b0;
+}
+div.scrollmenu .card.just-eat:hover {
+  background: #ff2a4f;
+}
+div.scrollmenu .card.lloyds:hover {
+  background: #1aa546;
+}
+div.scrollmenu .card.reclining-worm:hover {
+  background: #9f5ce6;
+}
+
+// XS CARDS
+.navbar-collapse .cards-xs .scrollmenu {
+  padding: 0px 20px;
+  .card {
+    width: 260px;
+  }
+  img.card-img-top {
+    height: 160px;
+  }
+  .card-text {
+    display: none;
+  }
+}
+
+
+// Mobile
+@media only screen and (max-width: 991px) {
+  div.scrollmenu, .card-stack {
+    padding: 20px 20px;
+  }
+  div.scrollmenu .card {
+    margin-right: 10px;
+  }
+  div.card {
+    img.card-img-top {
+      height: 220px;
+    }
+  }
+}
+
+
+
+
+// HERO CARDS
+  // Desktop
+  @media only screen and (min-width: 991px) {
+    .cards-lg {
+        div.scrollmenu .card {
+          margin-right: 16px;
+
+          img.card-img-top {
+            height: 360px;
+          }
+          h6 {
+            font-size: 3.4rem;
+            line-height: 2.7rem;
+            word-spacing: -0.6rem;
+          }
+          p {
+            width: 80%;
+          }
+        }
+
+        div.scrollmenu .card.see-all {
+          text-align: center;
+          width: 120px !important;
+          height: 120px;
+          border-radius: 110px;
+          margin-left: 40px;
+          margin-top: 260px;
+
+          a {
+            font-size: 1rem;
+          }
+          svg {
+            height: 3.5rem;
+          }
+        }
+
+      div.scrollmenu .card {
+        width: 500px;
+      }
+      h5 {
+        font-size: 4rem;
+        line-height: 3.2rem;
+      }
+      .card-body {
+        padding: 2rem;
+
+        p.card-text {
+          font-size: 1.25rem;
+        }
+      }
+    }
+  }

@@ -1,0 +1,315 @@
+html, body {
+  background: #ffc436;
+  color: #69655b;
+}
+a {
+  color: blue;
+  font-weight: bold;
+}
+a:hover {
+  color: white;
+}
+.navbar-brand {
+  width: 300px;
+  margin: 0 auto !important;
+  display: block;
+}
+a.navbar-brand {
+  background: url("../images/warface-logo.svg")0 0 no-repeat;
+  height: 48px;
+  width: 80px;
+  margin-left: 0.5rem;
+}
+a.navbar-brand:hover {
+  opacity: 0.1;
+}
+
+
+::selection {
+  background-color: rgba(250,208,115,1);
+  color: blue;
+}
+.navbar {
+  li.nav-item {
+    padding-left: 0.8rem;
+  }
+}
+
+// Navigation
+  a.navbar-brand {
+    width: 100px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 100;
+    transform: translate(-48px, -71px);
+  }
+  a.navbar-brand:hover {
+    opacity: 0.6;
+  }
+
+// Home Hero
+  .sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 0;
+    top: 0;
+    opacity: 1;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+  }
+
+  #carouselHeroHome {
+    margin: 0px;
+    height: 100%;
+
+    .carousel-inner {
+      height: 100%;
+    }
+    .carousel-item {
+      background: #ffc436;
+      height: 100%;
+      background-image: linear-gradient(red, yellow);
+    }
+    .carousel-indicators {
+      margin-bottom: 24px;
+    }
+    .carousel-item img {
+      max-width: 90vw;
+      margin: auto;
+    }
+    .color-block .center-align {
+      display: flex;
+      height: 100%;
+      width: 100%;
+    }
+    .color-block {
+      height: 100%;
+    }
+  }
+
+  .hero {
+    margin: auto;
+    height: 98vh;
+    padding-bottom: 20px;
+    padding-top: 3vh;
+
+      .folio {
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+      }
+      .blue {
+        color: #3a55bf;
+      }
+      .red {
+        color: #ff6161;
+      }
+      .list-inline {
+        text-align: center;
+      }
+      h2 {
+        font-family: 'DrukCondensed', 'Druk', 'Kabel-Black', 'Cinderblock';
+        font-size: 40vw;
+        line-height: 30.2vw;
+        letter-spacing: 0vw;
+        color: #FFFAEB;
+      }
+  }
+  .hero .color-block {
+    background-image: none;
+    background: none;
+    padding: 0px;
+  }
+
+
+
+.navbar-collapse {
+  width: 100%;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 28px;
+  font-family: 'SerifGothic';
+  text-transform: uppercase;
+}
+.nav-link:hover {
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+.navbar-toggler-icon {
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+}
+.navbar-toggler:focus, .navbar-toggler:active  {
+  border: 5px solid black;
+  border: 0;
+  outline: none;
+  opacity: 0.4;
+}
+.navbar-light .navbar-toggler-icon {
+  background: url('../images/menu.svg') 0 0 no-repeat;
+}
+.container-fluid {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+
+.image-block {
+  margin: 20px 0px;
+}
+
+
+.color-block {
+  color: white;
+
+  .center-align {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+  h2 {
+    padding-top: 10px;
+  }
+  p.intro {
+    font-size: 1.6rem;
+    text-align: left;
+  }
+  p.tags {
+    font-size: 1rem;
+    text-align: left;
+  }
+  h2 a:hover {
+    text-decoration: underline;
+  }
+}
+
+// Case study
+
+  // Project sheet
+  .color-block.case-study {
+    background-image: url('../images/projects/banners/hero-sticky template-mobile.png');
+  }
+  .sheet {
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  figure {
+    padding: 20px 0px;
+    font-size: 1rem;
+  }
+  .hero .row {
+    margin: 0px;
+  }
+  .content-block {
+    margin-top: 6vh;
+  }
+
+  .rating-5 {
+    background: url('/assets/images/projects/rating.svg') 24px center no-repeat;
+    display: inline-block;
+    width: 110px;
+    height: 20px;
+    text-align: left;
+  }
+  .img-fluid {
+    width: 100%;
+    margin: 20px 0px 10px 0px;
+  }
+
+
+.Contact footer {
+  display: none;
+}
+
+
+.form-control {
+  border: 1px solid black;
+}
+.form-control:focus {
+  border: 2px solid black;
+  box-shadow: none;
+}
+.btn-primary {
+  background: black;
+  border: none;
+  font-family: 'SerifGothic';
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+.btn-primary:hover {
+}
+.btn-primary:active, .btn-primary:focus {
+  background: pink !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.carousel-indicators li {
+  background-color: transparent;
+  height: 26px;
+  width: 26px;
+  border: 3px solid white;
+  border-radius: 16px;
+}
+.carousel-indicators li.active {
+  border: 3px solid white;
+}
+.carousel-indicators li:hover {
+  border: 3px solid white;
+  opacity: 1;
+}
+.carousel-item img {
+  object-fit: cover;
+}
+.carousel-control-next, .carousel-control-prev {
+  display: none;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-image: none;
+}
+
+
+.responsive-youtube {
+  overflow:hidden; padding-bottom:56.25%; position:relative; height:0;
+}
+.responsive-youtube iframe {
+  left:0; top:0; height:100%; width:100%; position:absolute;
+}
+
+.color-block.trainline {
+  background: #48D5B5;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h4 {
+    color: #21304d;
+  }
+}
+.color-block.cookpad {
+  background: #FF9933;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h4 {
+    color: #ffe9d2;
+  }
+}
+.color-block.lloyds-bank {
+  background: #006A4D;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h4 {
+    color: #8BC0B2;
+  }
+}

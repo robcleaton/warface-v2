@@ -1,0 +1,112 @@
+// Clients
+
+.clients img {
+  width: 100%;
+}
+.clients .col-4 {
+  height: 80px;
+  width: 160px;
+  white-space: nowrap;
+  text-align: center; margin: 1em 0;
+}
+.clients .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.clients img {
+    vertical-align: middle;
+    max-height: 40px;
+    max-width: 160px;
+}
+.clients {
+  .helper {
+    opacity: 0.8;
+    max-width: 200px;
+  }
+  .cookpad {
+    background: url('../images/logos/cookpad-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 80%;
+  }
+  .justeat {
+    background: url('../images/logos/justeat-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 80%;
+  }
+  .lloyds {
+    background: url('../images/logos/lloyds-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 50%;
+  }
+  .elsevier {
+    background: url('../images/logos/elsevier-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 30%;
+  }
+  .experian {
+    background: url('../images/logos/experian-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 70%;
+  }
+  .fifa {
+    background: url('../images/logos/fifa-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 60%;
+  }
+  .figma {
+    background: url('../images/logos/figma-wordmark-white.svg')center center no-repeat;
+    width: 100%;
+    background-size: 65%;
+  }
+  .gov {
+    background: url('../images/logos/govuk-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 90%;
+  }
+  .homebase {
+    background: url('../images/logos/homebase-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 80%;
+  }
+  .publicis {
+    background: url('../images/logos/PS-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 64%;
+  }
+  .rbs {
+    background: url('../images/logos/rbs-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 70%;
+  }
+  .sainsburys {
+    background: url('../images/logos/sainsburys-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 78%;
+  }
+  .tesco {
+    background: url('../images/logos/tesco-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 60%;
+  }
+  .trainline {
+    background: url('../images/logos/tl-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 68%;
+  }
+  .science-museum {
+    background: url('../images/logos/sciencemuseum-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 60%;
+  }
+  .nectar {
+    background: url('../images/logos/nectar-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 44%;
+  }
+  .isobar {
+    background: url('../images/logos/isobar-white-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 68%;
+  }
+}

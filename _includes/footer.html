@@ -1,0 +1,69 @@
+<footer>
+  {% include clients.html %}
+
+  <div class="container-fluid contact">
+
+    <div class="row">
+      <div class="col-1">
+      </div>
+      <div class="col-10">
+
+        <h2><a href="mailto:rob@warface.co.uk">Let's work together</a></h2>
+        <p><a href="mailto:rob@warface.co.uk">rob@warface.co.uk</a></p>
+
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="https://www.instagram.com/warface/" target="_blank"><i class="fa fa-instagram"></i> <span class="d-none d-md-inline">Instagram</span></a></li>
+          <li class="list-inline-item"><a href="https://medium.com/@warface" target="_blank"><i class="fab fa-medium-m"></i> <span class="d-none d-md-inline">Medium</span></a></li>
+          <li class="list-inline-item"><a href="https://dribbble.com/warface" target="_blank"><i class="fa fa-dribbble"></i>  <span class="d-none d-md-inline">Dribbble</span></a></li>
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/robcleaton-mobile-product-designer" target="_blank"><i class="fa fa-linkedin"></i>  <span class="d-none d-md-inline">LinkedIn</span></a></li>
+        </ul>
+      </div>
+      <div class="col-1">
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+  const scrollElements = document.querySelectorAll(".js-scroll");
+
+  const elementInView = (el, dividend = 1) => {
+    const elementTop = el.getBoundingClientRect().top;
+
+    return (
+      elementTop <=
+      (window.innerHeight || document.documentElement.clientHeight) / dividend
+    );
+  };
+
+  const elementOutofView = (el) => {
+    const elementTop = el.getBoundingClientRect().top;
+
+    return (
+      elementTop > (window.innerHeight || document.documentElement.clientHeight)
+    );
+  };
+
+  const displayScrollElement = (element) => {
+    element.classList.add("scrolled");
+  };
+
+  const hideScrollElement = (element) => {
+    element.classList.remove("scrolled");
+  };
+
+  const handleScrollAnimation = () => {
+    scrollElements.forEach((el) => {
+      if (elementInView(el, 1.25)) {
+        displayScrollElement(el);
+      } else if (elementOutofView(el)) {
+        hideScrollElement(el)
+      }
+    })
+  }
+
+  window.addEventListener("scroll", () => {
+    handleScrollAnimation();
+  });
+</script>

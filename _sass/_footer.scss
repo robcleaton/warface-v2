@@ -1,0 +1,65 @@
+// footer
+
+.blog-posts {
+  background: #4B6239;
+  padding: 2vh;
+
+  .card {
+    width: 100%;
+    float: left;
+    margin-bottom: 12px;
+    border: 0px;
+    border: 2px;
+
+    img {
+      height: 240px;
+      object-fit: cover;
+      border-top-right-radius: 2px;
+      border-top-left-radius: 2px;
+    }
+    a {
+      color: #ffc436;
+      font-size: 40px;
+      line-height: 28px;
+    }
+    a:hover {
+      color: black;
+    }
+  }
+}
+
+footer {
+  background: #4B6239;
+  padding-bottom: 28px;
+  width: 100%;
+  text-align: center;
+
+  .clients {
+    padding: 12px 24px 68px 24px;
+  }
+  .contact {
+    padding-top: 8vh;
+  }
+  h2 {
+    text-align: left;
+  }
+  a {
+    color: #FFC436;
+  }
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  p {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 19vw;
+    line-height: 14.6vw;
+    letter-spacing: -0.9vw;
+    margin: auto;
+  }
+  .list-inline {
+    text-align: center;
+  }
+}

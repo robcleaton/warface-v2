@@ -1,0 +1,91 @@
+
+@font-face {
+  font-family: 'SerifGothic';
+  src: url(../fonts/Serif-Gothic/itc-serif-gothic-black.otf);
+}
+@font-face {
+  font-family: 'Cinderblock';
+  src: url(../fonts/Cinderblock/Cinderblock-50.otf);
+}
+@font-face {
+  font-family: 'Druk';
+  src: url(../fonts/Druk/DrukText-Super-Trial.otf);
+}
+@font-face {
+  font-family: 'DrukCondensed';
+  src: url(../fonts/Druk/DrukXCond-Super-Trial.otf);
+}
+@font-face {
+  font-family: 'Kabel-Black';
+  src: url(../fonts/kabel/Kabel-Black.ttf);
+}
+/*
+@font-face {
+  font-family: 'Cinderblock-100';
+  src: url(../fonts/Cinderblock/Cinderblock-100.otf);
+}
+*/
+
+h1 {
+  font-family: 'SerifGothic';
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 6rem;
+  font-family: 'Druk','SerifGothic';
+  text-transform: uppercase;
+  letter-spacing: -0.1rem;
+  line-height: 4.6rem;
+  color: #FDB813;
+  word-spacing: -0.8rem;
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+h6 {
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  color: #505050;
+  margin-top: 40px;
+}
+b {
+  color: #505050;
+}
+.sheet h2 {
+  word-spacing: 0rem;
+}
+h3, .card-body h5  {
+  font-family: 'SerifGothic';
+  font-size: 3.2rem;
+  text-transform: uppercase;
+}
+
+
+body, p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+p.lead {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+.color-block {
+  h2 {
+    text-align: left !important;
+  }
+  h4 {
+    margin-top: 0px;
+  }
+}
+blockquote {
+  color: black;
+  font-style: 1.8rem;
+  padding: 20px;
+}
+footer li a {
+  font-size: 1rem;
+}

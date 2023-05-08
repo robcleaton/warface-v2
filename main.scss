@@ -1,0 +1,19 @@
+---
+---
+@charset "utf-8";
+
+@import
+        "typography",
+        "colours",
+        "cards",
+        "base",
+        "media",
+        "scroll",
+        "casestudy",
+        "dark-mode"
+;
+
+footer h1 {
+  font-family: 'SerifGothic';
+  text-transform: uppercase !important;
+}

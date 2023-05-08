@@ -1,0 +1,268 @@
+// Mobile
+@media only screen and (max-width: 600px) {
+  .navbar {
+    padding: 0.5rem 0px;
+  }
+
+  h1 {
+    font-size: 3.8rem;
+    letter-spacing: -0.1rem;
+    line-height: 2.8rem;
+    /* transition-duration: 6s; */
+  }
+  h2 {
+    font-size: 12vw;
+    line-height: 10vw;
+  }
+  h4 {
+    margin-top: 20px;
+  }
+  h5 {
+    margin-top: 10px;
+  }
+  h6 {
+    margin-top: 10px;
+  }
+
+  p.lead {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .hero {
+    height: 80vh;
+  }
+
+
+  .sheet .cs {
+    .color-block {
+      height: 88vh;
+      padding: 20px;
+      padding-top: 4vh;
+    }
+    .center-align {
+      top: 0;
+      transform: translate(0, 0%);
+    }
+    p.lead {
+      font-size: 1.2rem;
+      line-height: 1.4rem;
+    }
+    p.tags {
+      font-size: 0.8rem;
+    }
+  }
+
+  // Project cards - homepage
+  .cs.carousel .carousel-item {
+    height: 60vh;
+  }
+  .sheet .cs .color-block {
+    height: 100%;
+  }
+  #carouselSainsburys {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-mobile.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-mobile.png');
+    }
+  }
+  #carouselTrainline {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-mobile.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-mobile.png');
+    }
+  }
+  #carouselJustEat {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-justeat-mobile.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-justeat-mobile.png');
+    }
+  }
+  #carouselCookpad {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-cookpad-mobile.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-cookpad-mobile.png');
+    }
+  }
+  #carouselRecliningWorm {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-recliningworm-mobile.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-recliningworm-mobile.png');
+    }
+  }
+  #carouselOATBook {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-cookpad-mobile.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-cookpad-mobile.png');
+    }
+  }
+  .lead {
+    font-size: 1rem;
+  }
+  figure {
+    padding: 0px;
+  }
+}
+
+// Tablet
+@media only screen and (min-width: 601px) {
+
+  .navbar {
+    padding: 0.5rem 0px;
+  }
+
+  h1 {
+    font-size: 6rem;
+    letter-spacing: -0.1rem;
+    line-height: 3.9rem;
+    margin-bottom: 0px;
+    /* transition-duration: 6s; */
+  }
+  .image-block {
+    margin: 40px 0px;
+  }
+  .color-block {
+    padding: 0px 10px;
+
+      p.lead {
+        font-size: 1rem;
+      }
+      p.tags {
+        font-size: 0.9rem;
+      }
+  }
+  .blog-posts {
+    padding: 40px 6vw;
+  }
+  footer {
+    .clients {
+      padding: 2vh 6vw;
+    }
+  }
+}
+
+// Desktop
+@media only screen and (min-width: 991px) {
+  html {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='79' height='95' viewport='0 0 100 100' style='fill:black;font-size:47px;'><text y='50%'>🍕</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }
+  a {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='80' height='80' viewport='0 0 100 100' style='fill:black;font-size:44px;'><text y='50%'>☺️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }
+  .navbar-nav .scrollmenu {
+    display: none;
+  }
+  body {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 8rem;
+  }
+  .hero {
+  }
+
+  // Case study hero area
+  .case-study .sticky .color-block {
+    height: 88vh;
+  }
+
+
+  // Project slides
+  .color-block {
+    background-image: url('../images/projects/hero-sticky-template-mobile.png');
+    background-position: center;
+    padding: 0px 40px;
+
+      p.lead {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+      }
+      p.tags {
+        font-size: 0.9rem;
+      }
+  }
+
+  h1 {
+    font-size: 8rem;
+    letter-spacing: -0.1rem;
+    line-height: 6rem;
+  }
+  h4 {
+    margin-top: 40px;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  a.navbar-brand {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='79' height='95' viewport='0 0 100 100' style='fill:black;font-size:47px;'><text y='50%'>🍕</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }
+  .contact a {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='79' height='95' viewport='0 0 100 100' style='fill:black;font-size:47px;'><text y='50%'>🤙</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }
+  .carousel-control-prev {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:44px;'><text y='50%'>👈</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }
+  .carousel-control-next {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:44px;'><text y='50%'>👉</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }
+  .blog-posts {
+    padding: 8vh;
+
+    .card {
+      width: 24%;
+      float: left;
+      margin-right: 0.5%;
+    }
+  }
+
+  // Case study hero area
+  .case-study {
+    .color-block.case-study {
+      background-image: url('../images/projects/banners/hero-sticky-template-desktop.png');
+    }
+    .color-block.case-study.sainsburys {
+      background-image: url('../images/projects/banners/hero-sticky-template-desktop.png');
+    }
+    .color-block.case-study.trainline {
+      background-image: url('../images/projects/trainline/rob-daniel.png');
+    }
+    .color-block.case-study.justeat {
+      background-image: url('../images/projects/banners/hero-sticky-template-desktop.png');
+    }
+    .color-block.case-study.cookpad {
+      background-image: url('../images/projects/banners/hero-sticky-template-desktop.png');
+    }
+    .color-block.case-study.recliningworm {
+      background-image: url('../images/projects/banners/hero-sticky-template-desktop.png');
+    }
+    .color-block.case-study.oatbook {
+      background-image: url('../images/projects/banners/hero-sticky-template-desktop.png');
+    }
+  }
+}
+// Desktop Large
+@media only screen and (min-width: 1350px) {
+  .cs.carousel h2 {
+    font-size: 189px;
+    line-height: 146px;
+    letter-spacing: -8.4px;
+    max-width: 1300px;
+  }
+  footer {
+    .clients {
+      padding: 8vh 54px;
+    }
+  }
+}
