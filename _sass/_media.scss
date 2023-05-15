@@ -13,7 +13,7 @@
   h2 {
     // font-size: 12vw; *Doesnt render well on iPhone device
     font-size: 80px;
-    line-height: 72px;
+    line-height: 68px;
   }
   h4 {
     margin-top: 20px;
@@ -135,6 +135,9 @@
   }
 
   footer {
+    .clients {
+      padding-bottom: 16px;
+    }
     .contact {
       margin-top: 0px;
       max-width: 100%;
