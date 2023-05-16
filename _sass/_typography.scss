@@ -8,6 +8,10 @@
   src: url(../fonts/Cinderblock/Cinderblock-100.otf);
 }
 @font-face {
+  font-family: 'Cinderblock-50';
+  src: url(../fonts/Cinderblock/Cinderblock-50.otf);
+}
+@font-face {
   font-family: 'Druk';
   src: url(../fonts/Druk/DrukText-Super-Trial.otf);
 }
@@ -15,17 +19,7 @@
   font-family: 'DrukCondensed';
   src: url(../fonts/Druk/DrukXCond-Super-Trial.otf);
 }
-@font-face {
-  font-family: 'Kabel-Black';
-  src: url(../fonts/kabel/Kabel-Black.ttf);
-}
 
-/*
-@font-face {
-  font-family: 'Cinderblock-100';
-  src: url(../fonts/Cinderblock/Cinderblock-100.otf);
-}
-*/
 
 h1 {
   font-family: 'SerifGothic';
