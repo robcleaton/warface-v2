@@ -20,15 +20,6 @@
   }
 }
 
-.ninjas-image {
-  background-image: url('/assets/images/ninja-test-2.png');
-  background-repeat: no-repeat;
-  background-size: 800px 532px;
-  width: 800px;
-  height: 532px;
-}
-
-
 // Sainsburys
 #carouselSainsburys {
   a {
@@ -51,7 +42,7 @@
     margin-left: 10px;
   }
   #slide-1.color-block {
-    background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop.png');
+    background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop@3x.png');
   }
   #slide-2.color-block {
     background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop.png');
@@ -79,13 +70,10 @@
     background-size: cover;
   }
   #slide-1.color-block {
-    background-image: url('/assets/images/ninja-test-2.png');
-    background-repeat: no-repeat;
-    background-size: 800px 532px;
-    background-position: right;
+    background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-desktop@3x.png');
   }
   #slide-2.color-block {
-    background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-desktop.png');
+    background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-desktop@3x.png');
   }
 }
 

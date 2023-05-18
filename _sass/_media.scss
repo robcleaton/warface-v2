@@ -82,54 +82,7 @@
   .sheet .cs .color-block {
     height: 100%;
   }
-  #carouselSainsburys {
-    #slide-1.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-mobile.png');
-    }
-    #slide-2.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-mobile.png');
-    }
-  }
-  #carouselTrainline {
-    #slide-1.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-mobile.png');
-    }
-    #slide-2.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-mobile.png');
-    }
-  }
-  #carouselJustEat {
-    #slide-1.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-justeat-mobile.png');
-    }
-    #slide-2.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-justeat-mobile.png');
-    }
-  }
-  #carouselCookpad {
-    #slide-1.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-cookpad-mobile.png');
-    }
-    #slide-2.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-cookpad-mobile.png');
-    }
-  }
-  #carouselRecliningWorm {
-    #slide-1.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-recliningworm-mobile.png');
-    }
-    #slide-2.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-recliningworm-mobile.png');
-    }
-  }
-  #carouselOATBook {
-    #slide-1.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-cookpad-mobile.png');
-    }
-    #slide-2.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-cookpad-mobile.png');
-    }
-  }
+
   .lead {
     font-size: 1rem;
   }
@@ -198,6 +151,60 @@
         font-size: 0.9rem;
       }
   }
+
+  .color-block .center-align {
+    top: 40%;
+  }
+
+  #carouselSainsburys {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-mobile@3x.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-mobile.png');
+    }
+  }
+  #carouselTrainline {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-mobile@3x.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-mobile.png');
+    }
+  }
+  #carouselJustEat {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-justeat-mobile.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-justeat-mobile.png');
+    }
+  }
+  #carouselCookpad {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-cookpad-mobile.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-cookpad-mobile.png');
+    }
+  }
+  #carouselRecliningWorm {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-recliningworm-mobile.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-recliningworm-mobile.png');
+    }
+  }
+  #carouselOATBook {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-cookpad-mobile.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-cookpad-mobile.png');
+    }
+  }
+
   .blog-posts {
     padding: 40px 6vw;
   }
@@ -227,6 +234,35 @@
   }
   .hero {
   }
+
+  .color-block .center-align {
+    top: 50%;
+  }
+
+
+  #slide-1.color-block, #slide-2.color-block {
+    background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-desktop@3x.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #carouselSainsburys {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop.png');
+    }
+  }
+  #carouselTrainline {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-desktop.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-desktop.png');
+    }
+  }
+
 
   // Case study hero area
   .case-study .sticky .color-block {
