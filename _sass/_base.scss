@@ -4,6 +4,7 @@ html, body {
 }
 a {
   color: blue;
+  font-weight: bold;
 }
 a:hover {
   color: white;
@@ -166,23 +167,26 @@ a.navbar-brand:hover {
   color: white;
 
   .center-align {
-    margin: 0;
+    margin-top: -20px;
     position: absolute;
     top: 50%;
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
   }
-  p.intro {
-    font-size: 1.6rem;
-    text-align: left;
+  h2 a {
+    font-weight: normal;
   }
-  p.tags {
-    font-size: 1rem;
-    text-align: left;
-  }
-  h2 a:hover {
-    text-decoration: underline;
-  }
+  // p.intro {
+  //   font-size: 1.6rem;
+  //   text-align: left;
+  // }
+  // p.tags {
+  //   font-size: 1rem;
+  //   text-align: left;
+  // }
+  // h2 a:hover {
+  //   text-decoration: underline;
+  // }
 }
 
 // Case study

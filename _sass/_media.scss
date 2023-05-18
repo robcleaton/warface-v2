@@ -309,6 +309,9 @@
   .cs.carousel h2 {
     max-width: 1300px;
   }
+  .cs.carousel .carousel-item {
+    height: 100vh;
+  }
   footer {
     .clients {
       padding: 8vh 54px;
