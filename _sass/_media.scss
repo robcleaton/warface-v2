@@ -62,10 +62,13 @@
   .cs.carousel .carousel-item {
     height: 80vh;
   }
-  .cs.carousel h2 {
-    font-size: 75px;
-    letter-spacing: 0px;
-    line-height: 58px;
+  .cs.carousel {
+    h2 {
+      font-size: 24vw;
+      letter-spacing: 0px;
+      line-height: 18vw;
+      margin-top: -12px;
+    }
   }
   #carouselSainsburys .cs-logo.sainsburys, #carouselTrainline .cs-logo.trainline, #carouselJustEat.cs-logo.justeat {
     width: 120px;
@@ -145,23 +148,22 @@
     .contact {
       margin-top: 0px;
       max-width: 100%;
+
+      .row {
+        width: 100%;
+      }
     }
-    .row {
-      width: 100%;
-    }
+
     .col {
       padding-top: 32px;
       width: 100%
     }
     h2 {
-      font-size: 32vw;
+      font-size: 30.8vw;
       line-height: 23.2vw;
       letter-spacing: -1px;
       margin-top: -40px;
-      margin-bottom: 40px;
-      a {
-        font-weight: inherit;
-      }
+      margin-bottom: 20px;
     }
   }
 }
@@ -305,9 +307,6 @@
 // Desktop Large
 @media only screen and (min-width: 1350px) {
   .cs.carousel h2 {
-    font-size: 189px;
-    line-height: 146px;
-    letter-spacing: -8.4px;
     max-width: 1300px;
   }
   footer {

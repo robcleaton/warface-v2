@@ -9,10 +9,14 @@
     background-size: cover;
   }
   h2 {
-    font-size: 14vw;
-    letter-spacing: -0.6vw;
-    line-height: 10.8vw;
-    // line-height: min(max(16px, 11vw), 148px);
+    font-family: 'Cinderblock';
+    font-size: clamp(16px, 20vw, 328px);
+    letter-spacing: 0.2vw;
+    line-height: clamp(16px, 14.5vw, 236px);
+    width: clamp(90vw, 80vw, 980px);
+
+    margin-top: -24px;
+    margin-bottom: 24px;
   }
 }
 
