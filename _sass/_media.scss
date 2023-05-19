@@ -57,7 +57,9 @@
       font-size: 0.8rem;
     }
   }
-
+  // .sheet .cs .color-block {
+  //   height: 100%;
+  // }
   // Project cards - homepage
   .cs.carousel {
     h2 {
@@ -65,6 +67,7 @@
       letter-spacing: 0px;
       line-height: 18vw;
       margin-top: -12px;
+      width: 100vw;
     }
     .cs-logo {
       margin-top: 24px;
@@ -76,13 +79,9 @@
     margin-left: 4px;
   }
 
-  .sheet .cs .color-block {
-    height: 100%;
-  }
-
-  .lead {
-    font-size: 1rem;
-  }
+  // .lead {
+  //   font-size: 1rem;
+  // }
   figure {
     padding: 0px;
   }
@@ -155,7 +154,7 @@
 
   #carouselSainsburys {
     #slide-1.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-mobile@3x.png');
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-mobile.png');
     }
     #slide-2.color-block {
       background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-mobile.png');

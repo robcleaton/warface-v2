@@ -19,9 +19,8 @@
     padding: 0px 28px 60px 28px;
   }
   .content h2 {
-    font-size: 12vw;
-    font-size: clamp(80px, 12vw, 140px);
-    line-height: clamp(60px, 8.8vw, 104px);
+    font-size: clamp(80px, 16vw, 140px);
+    line-height: clamp(60px, 11.8vw, 104px);
     max-width: 720px;
     width: clamp(200px, 80vw, 720px);
     margin-top: -12px;
