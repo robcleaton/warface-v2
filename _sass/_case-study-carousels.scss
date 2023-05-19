@@ -10,11 +10,11 @@
   }
   h2 {
     font-family: 'Cinderblock';
-    font-size: clamp(16px, 20vw, 328px);
+    font-size: clamp(16px, 18vw, 328px);
     letter-spacing: 0.2vw;
-    line-height: clamp(16px, 14.5vw, 236px);
-    width: clamp(90vw, 80vw, 980px);
-
+    line-height: clamp(16px, 13.1vw, 236px);
+    width: 80vw;
+    max-width: 980px;
     margin-top: -24px;
     margin-bottom: 24px;
   }
@@ -42,7 +42,7 @@
     margin-left: 10px;
   }
   #slide-1.color-block {
-    background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop@3x.png');
+    background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop.png');
   }
   #slide-2.color-block {
     background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop.png');
@@ -70,10 +70,10 @@
     background-size: cover;
   }
   #slide-1.color-block {
-    background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-desktop@3x.png');
+    background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-desktop.png');
   }
   #slide-2.color-block {
-    background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-desktop@3x.png');
+    background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-desktop.png');
   }
 }
 
@@ -92,9 +92,9 @@
     background-size: cover;
   }
   .cs-logo.justeat {
-    background: url('../images/logos/justeat-white-logo.svg')center center no-repeat;
-    width: 160px;
-    height: 72px;
+    background: url('../images/logos/justeat-white-logo.svg')left center no-repeat;
+    width: 140px;
+    height: 40px;
     background-size: 100%;
   }
   #slide-1.color-block {
@@ -115,9 +115,9 @@
     text-decoration: none;
   }
   .cs-logo.cookpad {
-    background: url('../images/logos/cookpad-logo.svg')center center no-repeat;
-    width: 160px;
-    height: 72px;
+    background: url('../images/logos/cookpad-logo.svg')left center no-repeat;
+    width: 144px;
+    height: 40px;
     background-size: 100%;
   }
   .color-block {
@@ -181,9 +181,9 @@
     text-decoration: none;
   }
   .cs-logo.recliningworm {
-    background: url('../images/logos/recliningworm-white-logo.svg')center center no-repeat;
-    width: 160px;
-    height: 72px;
+    background: url('../images/logos/recliningworm-white-logo.svg')left top no-repeat;
+    width: 130px;
+    height: 54px;
     background-size: 100%;
   }
   .color-block {

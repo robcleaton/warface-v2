@@ -1,9 +1,11 @@
 // footer
 
 .blog-posts {
-  background: #4B6239;
   padding: 2vh;
 
+  h2 {
+    color: #000000;
+  }
   .card {
     width: 100%;
     float: left;
@@ -29,7 +31,6 @@
 }
 
 footer {
-  background: #4B6239;
   padding-bottom: 80px;
   width: 100%;
   text-align: center;
@@ -54,6 +55,7 @@ footer {
 
     a {
       font-weight: normal;
+      color: #000000;
     }
   }
 

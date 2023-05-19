@@ -18,6 +18,15 @@
   .content {
     padding: 0px 28px 60px 28px;
   }
+  .content h2 {
+    font-size: 12vw;
+    font-size: clamp(80px, 12vw, 140px);
+    line-height: clamp(60px, 8.8vw, 104px);
+    max-width: 720px;
+    width: clamp(200px, 80vw, 720px);
+    margin-top: -12px;
+    margin-bottom: 32px;
+  }
 
   // Logos
   .cs-logo {
@@ -30,9 +39,9 @@
     background-size: 100%;
   }
   .cs-logo.trainline {
-    background: url('../images/logos/tl-logo.svg')center center no-repeat;
-    width: 160px;
-    height: 38px;
+    background: url(../images/logos/tl-logo.svg) left center no-repeat;
+    width: 124px;
+    height: 34px;
     background-size: 100%;
   }
   .cs-logo.sainsburys {
@@ -70,9 +79,7 @@
     color: #ffffff;
   }
 
-  .content h2 {
-    max-width: 800px;
-  }
+
   // Star rating
   .rating-5 {
     background: url('/assets/images/projects/rating.svg') 24px center no-repeat;
