@@ -205,9 +205,19 @@ a.navbar-brand:hover {
     padding: 20px 0px;
     font-size: 1rem;
   }
-  .hero .row {
-    margin: 0px;
-  }
+  .hero {
+    height: auto;
+    margin: 60px 0px;
+      .row {
+        margin: 0px;
+        width: clamp(16rem, 90vw, 1920px);
+        margin: auto;
+      }
+      .hero-display {
+        width: 100%;
+      }
+    }
+
   .content-block {
     margin-top: 6vh;
   }

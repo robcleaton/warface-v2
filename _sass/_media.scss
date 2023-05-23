@@ -31,12 +31,13 @@
     line-height: 2rem;
   }
 
+
   .hero {
-    height: 80vh;
-  }
-  .hero .col {
-    max-width: 100% !important;
-    margin: auto;
+    margin: 40px 0px;
+    .col {
+        max-width: 100% !important;
+        margin: auto;
+    }
   }
 
 
@@ -92,7 +93,7 @@
       letter-spacing: -1px;
     }
   }
-  
+
   .clients .helper {
     background-size: 100%;
   }
@@ -232,9 +233,6 @@
   h1 {
     font-size: 8rem;
   }
-  .hero {
-  }
-
   .color-block .center-align {
     top: 50%;
   }
