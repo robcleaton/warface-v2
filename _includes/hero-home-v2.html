@@ -46,17 +46,54 @@
     text-align: center;
     color: white;
   }
+
+  .hero .roundel {
+    display: block;
+  }
+  .hero .award-roundel {
+    background: url('../assets/images/graphics/award-roundel.svg')center center no-repeat;
+    background-size: 100%;
+    height: clamp(100px, 14vw, 1000px);
+    width: clamp(100px, 14vw, 1000px);
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    transform: translate(0px, -140px);
+    -webkit-animation: spin 50s infinite linear;
+    z-index: 1;
+  }
+  @-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
+  }
+  .hero .face-smiley {
+    background: url('../assets/images/graphics/face-smiley.svg')center center no-repeat;
+    background-size: 40%;
+    height: clamp(100px, 14vw, 1000px);
+    width: clamp(100px, 14vw, 1000px);
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    z-index: 10;
+  }
 </style>
 <div class="sticky hero">
+
   <a class="navbar-brand" href="#"></a>
+
+  <div class="roundel">
+    <div class="face-smiley"></div>
+    <div class="award-roundel"></div>
+  </div>
 
   <div class="row">
     <div class="col">
+      <div class="lovie"></div>
+
       <div class="design">Design</div>
       <div class="systems">Systems</div>
       <div class="productDesign"><div class="smiley"></div>Product Design</div>
       <div class="mobileApps">Mobile Apps</div>
-      <img src="assets/images/graphics/DesignSystems-Cinderblock-100-smile-white.svg" class="hero-display" alt="...">
     </div>
   </div>
 
