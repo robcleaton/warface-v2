@@ -42,7 +42,7 @@
       top: 14%;
       transform: translate(0px, -140px);
       -webkit-animation: spin 50s infinite linear;
-      z-index: 1;
+      z-index: 2;
     }
     @-webkit-keyframes spin {
       0%  {-webkit-transform: rotate(0deg);}
