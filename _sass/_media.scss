@@ -39,8 +39,6 @@
         margin: auto;
     }
   }
-
-
   .sheet .cs {
     .color-block {
       padding: 20px;
@@ -72,6 +70,11 @@
     }
     .cs-logo {
       margin-top: 24px;
+    }
+    .roundel {
+      .etsy, .lovie, .award-roundel {
+        top: 5%;
+      }
     }
   }
   #carouselSainsburys .cs-logo.sainsburys, #carouselTrainline .cs-logo.trainline, #carouselJustEat.cs-logo.justeat {
@@ -123,40 +126,6 @@
       margin-bottom: 20px;
     }
   }
-}
-
-// Tablet
-@media only screen and (min-width: 601px) {
-
-  .navbar {
-    padding: 0.5rem 0px;
-  }
-
-  h1 {
-    font-size: 6rem;
-    letter-spacing: -0.1rem;
-    line-height: 3.9rem;
-    margin-bottom: 0px;
-    /* transition-duration: 6s; */
-  }
-  .image-block {
-    margin: 40px 0px;
-  }
-  .color-block {
-    padding: 0px 10px;
-
-      p.lead {
-        font-size: 1rem;
-      }
-      p.tags {
-        font-size: 0.9rem;
-      }
-  }
-
-  .color-block .center-align {
-    top: 40%;
-  }
-
   #carouselSainsburys {
     #slide-1.color-block {
       background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-mobile.png');
@@ -205,6 +174,41 @@
       background-image: url('../images/projects/banners/case-study-cards/cs-card-oatbook-desktop.png');
     }
   }
+}
+
+// Tablet
+@media only screen and (min-width: 601px) {
+
+  .navbar {
+    padding: 0.5rem 0px;
+  }
+
+  h1 {
+    font-size: 6rem;
+    letter-spacing: -0.1rem;
+    line-height: 3.9rem;
+    margin-bottom: 0px;
+    /* transition-duration: 6s; */
+  }
+  .image-block {
+    margin: 40px 0px;
+  }
+  .color-block {
+    padding: 0px 10px;
+
+      p.lead {
+        font-size: 1rem;
+      }
+      p.tags {
+        font-size: 0.9rem;
+      }
+  }
+
+  .color-block .center-align {
+    top: 40%;
+  }
+
+
 
   .blog-posts {
     padding: 40px 6vw;

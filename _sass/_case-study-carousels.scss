@@ -19,8 +19,19 @@
   .center-align {
     width: clamp(300px, 80vw, 1300px);
   }
-  .roundel {
 
+  .roundel {
+    .etsy {
+      background: url('../images/graphics/etsy-shop.svg')center center no-repeat;
+      background-size: 34%;
+      height: clamp(200px, 20vw, 1000px);
+      width: clamp(200px, 20vw, 1000px);
+      z-index: 10;
+      rotate: 12deg;
+      right: 4%;
+      top: 14%;
+      position: absolute;
+    }
     .lovie {
       background: url('../images/graphics/LovieAward.png')center center no-repeat;
       background-size: 40%;
@@ -162,9 +173,6 @@
   }
   #slide-1.color-block {
     background-image: url('../images/projects/banners/case-study-cards/cs-card-cookpad-desktop.png');
-    background-repeat: no-repeat;
-    background-size: 1200px 660px;
-    background-position: right;
   }
   #slide-2.color-block {
     background-image: url('../images/projects/banners/case-study-cards/cs-card-cookpad-desktop-2.png');
