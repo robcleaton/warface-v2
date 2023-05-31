@@ -68,6 +68,15 @@
       margin-top: -12px;
       width: 100vw;
     }
+    h2 {
+      font-family: 'Cinderblock-75';
+      font-size: clamp(16px, 18vw, 328px);
+      letter-spacing: 0.1vw;
+      line-height: clamp(66px, 13.1vw, 236px);
+      margin-top: 0px;
+      margin-bottom: 24px;
+      width: 95vw;
+    }
     .cs-logo {
       margin-top: 24px;
     }
