@@ -22,7 +22,7 @@
     font-size: clamp(80px, 16vw, 140px);
     line-height: clamp(60px, 11.8vw, 104px);
     max-width: 720px;
-    width: clamp(200px, 80vw, 720px);
+    width: clamp(200px, 84vw, 720px);
     margin-top: -12px;
     margin-bottom: 32px;
   }
@@ -44,9 +44,9 @@
     background-size: 100%;
   }
   .cs-logo.sainsburys {
-    background: url('../images/logos/sainsburys-logo.svg')center center no-repeat;
-    width: 160px;
-    height: 36px;
+    background: url('../images/logos/sainsburys-logo.svg')left top no-repeat;
+    width: 130px;
+    height: 26px;
     background-size: 100%;
   }
   .cs-logo.justeat {
