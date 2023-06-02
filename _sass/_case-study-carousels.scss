@@ -62,7 +62,7 @@
   }
 
   .iOS-device {
-    background: url('../images/projects/banners/case-study-cards/test-device.png')left top no-repeat;
+    background: url('../images/projects/banners/case-study-cards/ios-device.png')left top no-repeat;
     position: absolute;
     bottom: 0px;
     right: 4.1vw;
@@ -96,10 +96,19 @@
     background-size: 100%;
   }
   #slide-1.color-block {
-    background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop.png');
+    background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop-1.png');
   }
   #slide-2.color-block {
-    background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop.png');
+    background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop-2.png');
+    background-color: #8223FA;
+  }
+  #slide-3.color-block {
+    background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop-3.png');
+    background-color: #D42114;
+  }
+  #slide-4.color-block {
+    background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop-4.png');
+    background-color: black;
   }
 }
 
