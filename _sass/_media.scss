@@ -76,6 +76,10 @@
         top: 5%;
       }
     }
+    .iOS-device {
+      width: 90%;
+      top: 80vw;
+    }
   }
   #carouselSainsburys .cs-logo.sainsburys, #carouselTrainline .cs-logo.trainline, #carouselJustEat .cs-logo.justeat {
     width: 120px;
@@ -213,9 +217,29 @@
         font-size: 0.9rem;
       }
   }
-
-  .color-block .center-align {
-    top: 40%;
+  .cs.carousel {
+    .iOS-device {
+      width: 90%;
+      top: 74vw;
+    }
+  }
+  .sheet .cs {
+    .color-block {
+      padding: 20px;
+      padding-top: 4vh;
+    }
+    .center-align {
+      top: 0;
+      transform: translate(0, 0%);
+    }
+  }
+  #carouselRecliningWorm {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-recliningworm-mobile.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-recliningworm-mobile.png');
+    }
   }
 
 
@@ -250,6 +274,15 @@
   .color-block .center-align {
     top: 50%;
   }
+  .cs.carousel {
+    .center-align {
+      margin-top: -20px;
+      position: absolute;
+      top: 50%;
+      -ms-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+    }
+  }
 
 
   #slide-1.color-block, #slide-2.color-block {
@@ -258,20 +291,20 @@
     background-position: center;
   }
 
-  #carouselSainsburys {
-    #slide-1.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop.png');
-    }
-    #slide-2.color-block {
-      background-image: url('../images/projects/banners/case-study-cards/cs-card-sainsburys-desktop.png');
-    }
-  }
   #carouselTrainline {
     #slide-1.color-block {
       background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-desktop.png');
     }
     #slide-2.color-block {
       background-image: url('../images/projects/banners/case-study-cards/cs-card-trainline-desktop.png');
+    }
+  }
+  #carouselRecliningWorm {
+    #slide-1.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-recliningworm-desktop.png');
+    }
+    #slide-2.color-block {
+      background-image: url('../images/projects/banners/case-study-cards/cs-card-recliningworm-desktop.png');
     }
   }
 

@@ -13,7 +13,7 @@
     font-size: clamp(144px, 18vw, 328px);
     letter-spacing: 0.2vw;
     line-height: clamp(106px, 13.1vw, 236px);
-    margin-top: -16px;
+    margin-top: -2.2vw;
     margin-bottom: 24px;
   }
   .center-align {
@@ -59,6 +59,17 @@
       0%  {-webkit-transform: rotate(0deg);}
       100% {-webkit-transform: rotate(360deg);}
     }
+  }
+
+  .iOS-device {
+    background: url('../images/projects/banners/case-study-cards/test-device.png')left top no-repeat;
+    position: absolute;
+    bottom: 0px;
+    right: 4.1vw;
+    height: 94%;
+    width: 29vw;
+    background-size: 100%;
+    z-index: 10;
   }
 
 }
